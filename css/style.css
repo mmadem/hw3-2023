@@ -59,7 +59,7 @@ nav a.current{
 h1{
    /*Set font and font size*/
    font-size: 60px;
-   font-family: 'Merriweather', Anton, 'Times New Roman', sans-serif;
+   font-family: 'Merriweather', 'Anton', 'Times New Roman', Verdana, Sans-serif;
    line-height: 1;
    padding: 25px 0;
    text-align: left;
@@ -71,7 +71,7 @@ h2{
     /*Set font, font size, and alignment*/
     font-size: 40px;
 
-    font-family: 'Anton', 'Times New Roman', sans-serif;
+    font-family: 'Anton', 'Times New Roman', Verdana, Sans-serif ;
     text-align: center;
 
 }
@@ -94,9 +94,10 @@ h1, h2, h3{
     display: grid;
     width: 90%;
     margin: 0 auto;
+    justify-content: center;
     border-radius: 30px;
     grid-template-columns: 30% 30% 30%;
-    grid-gap: 10px 50px;
+    grid-gap: 10px 65px;
 
     background-color: rgb(241, 206, 206);
 
